@@ -62,7 +62,7 @@ export default function Home() {
       <section className={styles.news}>
         <h2 className={styles.newsTitle}>News</h2>
         <NewsList news={sliceData} />
-        <div className={styles.newLink}>
+        <div className={styles.newsLink}>
           <ButtonLink href="/news">もっとみる</ButtonLink>
         </div>
       </section>
