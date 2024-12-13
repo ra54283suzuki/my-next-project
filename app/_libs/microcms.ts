@@ -50,4 +50,5 @@ export const getNewsList = async (queries?: MicroCMSQueries) => {
     endpoint: "news",
     queries,
   });
+  return listData;
 };
